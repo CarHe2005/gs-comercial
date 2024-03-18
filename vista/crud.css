@@ -1,0 +1,29 @@
+:root{
+    --blanco: #ffffff86;
+    --amarillo: #ffec00;
+    --verde : #2aab57;
+}
+.bg--blanco{background-color: var(--blanco)!important;}
+.bg--amarillo{background-color: var(--amarillo) !important;}
+.bg--verde{background-color: var(--verde)!important;}
+
+
+.navbar{
+    margin: 0px;
+    padding: 0%;
+
+}
+
+.container{
+    margin:auto;
+    margin-top: 5px;
+
+}
+
+
+
+.tabla_espacio{
+    margin: auto;
+    padding: 0px;
+}
+

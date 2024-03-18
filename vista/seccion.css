@@ -1,0 +1,43 @@
+:root{
+    --blanco: #ffffff86;
+    --amarillo: #ffec00;
+    --verde : #2aab57;
+}
+.bg--blanco{background-color: var(--blanco)!important;}
+.bg--amarillo{background-color: var(--amarillo) !important;}
+.bg--verde{background-color: var(--verde)!important;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.columns{
+    margin-top: 45px;
+    column-count: 2;
+    column-gap: 5px;
+    column-rule: 1px solid #ffec00;
+}
+
+.img1{
+    margin: auto;
+    align-items: center;
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 0%;
+
+}
+
+.boton-largo{
+    width: 200px;
+}
+
+
+

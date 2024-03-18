@@ -1,0 +1,103 @@
+
+:root{
+    --blanco: #ffffff86;
+    --amarillo: #ffec00;
+}
+.bg--blanco{background-color: var(--blanco)!important;}
+.bg--amarillo{background-color: var(--amarillo) !important;}
+
+body{
+    background-image: url(vista/img/fondo.jpg);
+    margin: 0; /* Elimina los márgenes predeterminados del body para evitar espacios en blanco */
+    padding: 0;
+    text-align: center;
+    align-items: center; 
+    margin: fixed;   
+}
+
+/*img*/
+.container{
+    margin-top: 45px;  
+}
+/*balmoral*/
+h1{
+    font-weight: bold;
+}
+
+/*mapa titulo*/
+h2{
+    font-size: 80px;
+}
+/*parrajp*/
+p{
+    font-size: 25px;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(90px, 1fr)); /* Cuadrícula adaptable con tarjetas de 200px de ancho mínimo */
+    gap: 10px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Añadir un espacio alrededor del contenedor */
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    
+} 
+h3{
+    text-align: center;
+}
+
+/* button */
+button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0a4622, #2aab57);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

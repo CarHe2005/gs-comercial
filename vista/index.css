@@ -1,0 +1,159 @@
+
+body{
+    background-image: url(img/fondo.jpg);
+}
+
+/* Home Sections start */
+.home{
+    width: 100%;
+    height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.371)), url(img/sede/home.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 11px;
+}
+.changecontent::after{
+    content: ' ';
+    color: #073d1c;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "El";}
+    10%{content: "Supermercado";}
+    20%{content: "De";}
+    30%{content: "Los";}
+    40%{content: "Fusagasugeños";}
+    50%{content: "El";}
+    60%{content: "Supermercado";}
+    70%{content: "De";}
+    80%{content: "Los";}
+    90%{content: "Fusagasugeños";}
+    100%{content: ":)";}
+}
+.home .content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: #0f3b08;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border-radius: 25px;
+    text-decoration: none;
+
+    transition: 0.5s;
+}
+.home .content a:hover{
+    background: #dde406;
+    color: white;
+
+}
+
+@media (max-width:850px){
+    .home{
+          background-position: 50%;
+    }
+}
+
+@media (max-width:450px){
+    .home .content h1{
+          font-size: 50px;
+    }
+    .home .content p{
+          font-size: 13px;
+    }
+}
+/* Home Sections start */
+
+/* Carrusel start */
+
+@media screen and (min-width: 568px) {
+    .cards-wrapper{
+          display: flex;
+    
+    }
+    .card{
+          margin: 0 .5em;
+          width: calc(100%/3);
+    }
+    .image-wrapper{
+          height: 22vw;
+          margin: 0 auto;
+    }
+    }
+    
+/* Carrusel end */
+
+/* Card strart */
+
+#cards{
+    background-color: rgba(255, 255, 255, 0.958);
+    padding: 25px;
+    color: #133804;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin:20px;
+    border: none;
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.459);
+    
+}
+
+#btn1:hover{
+    background: #0d4d10;
+    color: white;
+
+}
+
+.custom-btn{
+    background: #d8a3d9;
+    color: white;
+}
+
+h5{
+    font-weight: bold;
+    padding: 10px;
+}
+#text{
+    padding: 11px;
+}
+
+/* Card end */
+
+#nosotros-text{
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+
+

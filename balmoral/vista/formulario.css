@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/formulario.png);
+}
+
+:root {
+    --negro:black;
+    --blanco: #f2f2f2;
+    --lila: #D8A3D9;
+    --morado: #61378C;
+    --verde: #D3D929;
+    --naranja: #F25835;
+    --gris: #ABB2B9;
+    --lilaclaro: #ECCEF5;
+}
+
+.bg--blanco{ background-color: var(--blanco) !important;}
+.bg--lila{background-color: var(--lilaclaro) !important;}
+.bg--morado{background-color: var(--morado) !important;}
+.bg--naranja{background-color: var(--naranja)!important;}
+.bg--verde{background-color: var(--verde)!important;}
+
+
+
+.container{
+    align-items: center;
+    margin: auto;  
+}
+
+
+
+

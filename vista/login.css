@@ -1,0 +1,60 @@
+
+
+:root{
+      --light: #ffffff;
+      --dark: #16191c;
+      --dark-x: #1e2126;
+      --hueso: #f2f2f2;
+}
+/* El negro es color #16191c */
+*
+
+
+.bg-hueso{
+      background-color: var(--hueso) !important;
+}
+
+body{
+      margin: 0;
+      font-weight: 300;
+      color: var(--dark);
+}
+.bg-light{ 
+      background-color: var(--light) !important;
+}
+#logokaloi{
+      max-width: 70%;
+      max-height: 70%;
+}
+
+.form-control, .btn{
+      min-height: 3.125rem;
+      line-height: initial;
+}
+
+.img-1{
+      background-image: url(./img/sede/sanjorge.png);
+      background-size: cover;
+      background-position: center;
+}
+
+.img-2{
+      background-image: url(./img/sede/balmoral.png);
+      background-size: cover;
+      background-position: center;
+}
+
+.img-3{
+      background-image: url(./img/sede/palma.png);
+      background-size: cover;
+      background-position: center;
+}
+
+#iniciar{
+      background-color: #32701a;
+}
+
+.form-check-input:checked + .form-check-label::before {
+      background-color: #61378c; /* Cambia este color al que desees */
+      border-color: #61378c; /* Cambia el color del borde al mismo color si lo deseas */
+}
